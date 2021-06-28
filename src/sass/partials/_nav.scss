@@ -1,0 +1,16 @@
+.nav-link {
+  color: white;
+  .active {
+    color: white !important;
+  }
+}
+
+.NavBtn {
+  background-color: white;
+  border: none !important;
+  margin-top: 0px;
+
+  &:hover {
+    background-color: rgb(218, 216, 216);
+  }
+}

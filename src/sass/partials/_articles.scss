@@ -1,0 +1,53 @@
+.listContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 60px;
+  row-gap: 25px;
+  margin-bottom: 55px;
+}
+
+.CardBtn {
+  width: 101%;
+  border: none;
+  border-radius: 0;
+  margin-top: 15px;
+  background-color: $primary-color !important;
+  &:hover {
+    background-color: $secondary-color !important;
+  }
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.article-detail {
+  height: 150px;
+}
+.card {
+  color: #011931;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.dateCenter {
+  text-align: center;
+  color: darkgray;
+  border-top: 0.5px solid black;
+}
+
+.headingMargin {
+  margin-top: 50px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 45px;
+}
+
+h2 {
+  font-size: 16px;
+  margin-bottom: 25px;
+}

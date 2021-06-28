@@ -1,0 +1,22 @@
+.jumbotron {
+  background-image: url(../../components/images/jumbotronbg.jpg);
+  background-size: initial;
+  height: 450px;
+  h1 {
+    padding-top: 50px;
+    color: white;
+  }
+  p {
+    color: white;
+  }
+}
+
+.bg-light {
+  background-color: #10a04f !important;
+}
+
+.headerSearch {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}

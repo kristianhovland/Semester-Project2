@@ -1,0 +1,44 @@
+.adminButtons {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.AdminBtn {
+  width: 110px;
+  height: 120px;
+  border: none;
+  border-radius: 0;
+  margin: 5px;
+  margin-top: 150px;
+  font-size: 14px;
+  text-decoration: none;
+  color: $font-color;
+  background: $primary-color;
+  letter-spacing: 1px;
+  text-align: center;
+
+  &:hover {
+    background: $secondary-color;
+    border: none;
+  }
+}
+
+.admin-list {
+  list-style: none;
+  margin-top: 15px;
+  li {
+    margin-bottom: 15px;
+  }
+}
+
+h4 {
+  padding-left: 50px;
+  margin: 15px 0px;
+  font-size: 15px;
+}
+
+.loginContainer {
+  margin-top: 180px;
+  margin-bottom: 350px;
+}
